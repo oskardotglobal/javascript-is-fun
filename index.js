@@ -16,7 +16,7 @@ function draw() {
 }
 
 function mousePressed() {
-    manager.player.position = new Position(mouseX, mouseY);
+    manager.player.position = new Vec2D(mouseX, mouseY);
 }
 
 function windowResized() {
@@ -24,12 +24,40 @@ function windowResized() {
 }
 
 function keyPressed() {
-    function jumpToCircle(iter, timeout) {
-        if (!iter.hasNext()) return;
+    const manager = ManagerFactory.get();
+    const player = manager.player;
 
-        setTimeout(() => manager.player.position = iter.next().position, timeout);
-        jumpToCircle(iter, timeout + 1000);
+    /**
+     * @param {Vec2D} by
+     * @param {Vec2D} to
+     * @recursive
+     */
+    function glide(by, to) {
+        if (player.position.equals(to)) return;
+
+        const delta = to.sub(player.position);
+        const normalized = delta.normalized();
+
+        if (delta.length() === 0 || !isFinite(normalized.x)) return;
+
+        player.position = player.position.add(normalized.add(by));
+        setTimeout(() => glide(by, to), 60 / 1000);
     }
 
-    jumpToCircle(new Iterator(manager.elements), 0);
+    /**
+     * @param {CIterator} iter
+     * @recursive
+     */
+    function jumpToLetter(iter) {
+        if (!iter.hasNext()) return;
+
+        glide(new Vec2D(1, 1), iter.peek().position);
+
+        setTimeout(() => {
+            player.position = iter.next().position
+            jumpToLetter(iter);
+        }, 1000);
+    }
+
+    jumpToLetter(new CIterator(manager.elements));
 }
