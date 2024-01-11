@@ -30,18 +30,21 @@ function keyPressed() {
     /**
      * @param {Vec2D} by
      * @param {Vec2D} to
+     * @param {Timer} timer
      * @recursive
      */
-    function glide(by, to) {
-        if (player.position.equals(to)) return;
+    function glide(by, to, timer) {
+        if (player.position.equals(to)) return true;
 
         const delta = to.sub(player.position);
         const normalized = delta.normalized();
 
-        if (delta.length() === 0 || !isFinite(normalized.x)) return;
+        if (delta.length() === 0 || !isFinite(normalized.x)) return true;
 
-        player.position = player.position.add(normalized.add(by));
-        setTimeout(() => glide(by, to), 60 / 1000);
+        player.position = player.position.add(normalized.mult(by));
+        timer.reset();
+
+        return false;
     }
 
     /**
@@ -51,12 +54,13 @@ function keyPressed() {
     function jumpToLetter(iter) {
         if (!iter.hasNext()) return;
 
-        glide(new Vec2D(1, 1), iter.peek().position);
-
-        setTimeout(() => {
-            player.position = iter.next().position
-            jumpToLetter(iter);
-        }, 1000);
+        const letter = iter.next();
+        const timer = new Timer(
+            () => glide(new Vec2D(1, 1), letter.position, timer),
+            600 / 1000,
+            true,
+            () => jumpToLetter(iter)
+        );
     }
 
     jumpToLetter(new CIterator(manager.elements));
