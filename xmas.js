@@ -3,93 +3,43 @@ window.onresize = () => setup();
 let canvas;
 let img;
 
-let circle = {
-    color: {red: 200, green: 200, blue: 50, alpha: 205},
-    position: {x: 100, y: 200},
-    shape: {diameter: 100},
-    onCanvas: function () {
-        let c = this.color;
-        let p = this.position;
-        let s = this.shape;
+const circle = new Circle(
+    new Color(200, 200, 50, 205),
+    new Position(100, 200),
+    100
+);
 
-        fill(c.red, c.green, c.blue, c.alpha);
-        ellipse(p.x, p.y, s.diameter, s.diameter);
+const elements = [
+    new Letter(
+        new Color(0, 200, 0, 255),
+        new Position(900, 200),
+        new Font("Apple LiSung Light", 140),
+        "X"
+    ),
 
-    }
-}
+    new Letter(
+        new Color(255, 0, 0, 255),
+        new Position(700, 400),
+        new Font("Apple LiSung Light", 140),
+        "M"
+    ),
 
-let b0 = {
-    color: {red: 0, green: 200, blue: 0, alpha: 255},
-    font: {name: "Apple LiSung Light", size: 140},
-    position: {x: 200, y: 200},
-    text: "X",
-    onCanvas: function () {
-        let c = this.color;
-        let p = this.position;
-        let f = this.font;
-        let t = this.text;
+    new Letter(
+        new Color(0, 0, 255, 255),
+        new Position(1200, 500),
+        new Font("Apple LiSung Light", 140),
+        "A"
+    ),
 
-        fill(c.red, c.green, c.blue, c.alpha);
-        textSize(f.size);
-        textFont(f.name);
-        text(t, p.x, p.y);
-    }
-};
+    new Letter(
+        new Color(0, 255, 255, 255),
+        new Position(350, 500),
+        new Font("Apple LiSung Light", 140),
+        "S"
+    ),
 
-let b1 = {
-    color: {red: 255, green: 0, blue: 0, alpha: 255},
-    font: {name: "Apple LiSung Light", size: 140},
-    position: {x: 100, y: 400},
-    text: "M",
-    onCanvas: function () {
-        let c = this.color;
-        let p = this.position;
-        let f = this.font;
-        let t = this.text;
-
-        fill(c.red, c.green, c.blue, c.alpha);
-        textSize(f.size);
-        textFont(f.name);
-        text(t, p.x, p.y);
-    }
-};
-
-let b2 = {
-    color: {red: 0, green: 0, blue: 255, alpha: 255},
-    font: {name: "Apple LiSung Light", size: 140},
-    position: {x: 200, y: 500},
-    text: "A",
-    onCanvas: function () {
-        let c = this.color;
-        let p = this.position;
-        let f = this.font;
-        let t = this.text;
-
-        fill(c.red, c.green, c.blue, c.alpha);
-        textSize(f.size);
-        textFont(f.name);
-        text(t, p.x, p.y);
-    }
-};
-
-let b3 = {
-    color: {red: 0, green: 255, blue: 255, alpha: 255},
-    font: {name: "Apple LiSung Light", size: 140},
-    position: {x: 350, y: 500},
-    text: "S",
-    onCanvas: function () {
-        let c = this.color;
-        let p = this.position;
-        let f = this.font;
-        let t = this.text;
-
-        fill(c.red, c.green, c.blue, c.alpha);
-        textSize(f.size);
-        textFont(f.name);
-        text(t, p.x, p.y);
-    }
-};
-
+    circle
+];
 
 function preload() {
     img = loadImage("img/xmas.JPG");
@@ -105,9 +55,7 @@ function setup() {
 
 function draw() {
     background(img);
-
-    const items = [b0, b1, b2, b3, circle];
-    items.forEach(element => element.onCanvas());
+    elements.forEach(element => element.draw());
 }
 
 function mousePressed() {
@@ -115,4 +63,13 @@ function mousePressed() {
     circle.position.x = mouseX;
     // @ts-expect-error
     circle.position.y = mouseY;
+}
+
+function keyPressed() {
+    const letters = elements.slice(0, 3);
+
+    for (let i = 0; i < letters.length; i++) {
+        let letter = letters[i];
+        setTimeout(() => circle.position = letter.position, 2000 * i)
+    }
 }
