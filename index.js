@@ -49,7 +49,6 @@ function setup() {
     canvas = createCanvas(window.innerWidth, window.innerHeight);
     canvas.parent("container");
 
-    // @ts-expect-error
     noStroke();
 }
 
@@ -59,9 +58,7 @@ function draw() {
 }
 
 function mousePressed() {
-    // @ts-expect-error
     circle.position.x = mouseX;
-    // @ts-expect-error
     circle.position.y = mouseY;
 }
 
