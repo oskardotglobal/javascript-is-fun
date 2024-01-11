@@ -1,72 +1,35 @@
-window.onresize = () => setup();
-
-let canvas;
-let img;
-
-const circle = new Circle(
-    new Color(200, 200, 50, 205),
-    new Position(100, 200),
-    100
-);
-
-const elements = [
-    new Letter(
-        new Color(0, 200, 0, 255),
-        new Position(900, 200),
-        new Font("Apple LiSung Light", 140),
-        "X"
-    ),
-
-    new Letter(
-        new Color(255, 0, 0, 255),
-        new Position(700, 400),
-        new Font("Apple LiSung Light", 140),
-        "M"
-    ),
-
-    new Letter(
-        new Color(0, 0, 255, 255),
-        new Position(1200, 500),
-        new Font("Apple LiSung Light", 140),
-        "A"
-    ),
-
-    new Letter(
-        new Color(0, 255, 255, 255),
-        new Position(350, 500),
-        new Font("Apple LiSung Light", 140),
-        "S"
-    ),
-
-    circle
-];
+const manager = ManagerFactory.create();
 
 function preload() {
-    img = loadImage("img/xmas.JPG");
+    manager.background = loadImage("img/xmas.JPG");
 }
 
 function setup() {
-    canvas = createCanvas(window.innerWidth, window.innerHeight);
+    const canvas = createCanvas(window.innerWidth, window.innerHeight);
     canvas.parent("container");
 
     noStroke();
 }
 
 function draw() {
-    background(img);
-    elements.forEach(element => element.draw());
+    manager.draw();
 }
 
 function mousePressed() {
-    circle.position.x = mouseX;
-    circle.position.y = mouseY;
+    manager.player.position = new Position(mouseX, mouseY);
+}
+
+function windowResized() {
+    resizeCanvas(window.innerWidth, window.innerHeight);
 }
 
 function keyPressed() {
-    const letters = elements.slice(0, 4);
+    function jumpToCircle(iter, timeout) {
+        if (!iter.hasNext()) return;
 
-    for (let i = 0; i < letters.length; i++) {
-        let letter = letters[i];
-        setTimeout(() => circle.position = letter.position, 1000 * i)
+        setTimeout(() => manager.player.position = iter.next().position, timeout);
+        jumpToCircle(iter, timeout + 1000);
     }
+
+    jumpToCircle(new Iterator(manager.elements), 0);
 }
