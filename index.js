@@ -1,7 +1,5 @@
-const manager = ManagerFactory.create();
-
 function preload() {
-    manager.background = loadImage("img/xmas.JPG");
+    ManagerFactory.get().background = loadImage("img/xmas.JPG");
 }
 
 function setup() {
@@ -12,11 +10,11 @@ function setup() {
 }
 
 function draw() {
-    manager.draw();
+    ManagerFactory.get().draw();
 }
 
 function mousePressed() {
-    manager.player.position = new Vec2D(mouseX, mouseY);
+    ManagerFactory.get().player.position = new Vec2D(mouseX, mouseY);
 }
 
 function windowResized() {
