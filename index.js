@@ -66,10 +66,10 @@ function mousePressed() {
 }
 
 function keyPressed() {
-    const letters = elements.slice(0, 3);
+    const letters = elements.slice(0, 4);
 
     for (let i = 0; i < letters.length; i++) {
         let letter = letters[i];
-        setTimeout(() => circle.position = letter.position, 2000 * i)
+        setTimeout(() => circle.position = letter.position, 1000 * i)
     }
 }
