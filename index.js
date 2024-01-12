@@ -7,6 +7,7 @@ function setup() {
     canvas.parent("container");
 
     noStroke();
+    textAlign(CENTER, CENTER);
 }
 
 function draw() {
@@ -26,35 +27,30 @@ function keyPressed() {
     const player = manager.player;
 
     /**
-     * @param {Vec2D} by
-     * @param {Vec2D} to
-     * @param {Timer} timer
-     * @recursive
-     */
-    function glide(by, to, timer) {
-        if (player.position.equals(to)) return true;
-
-        const delta = to.sub(player.position);
-        const normalized = delta.normalized();
-
-        if (delta.length() === 0 || !isFinite(normalized.x)) return true;
-
-        player.position = player.position.add(normalized.mult(by));
-        timer.reset();
-
-        return false;
-    }
-
-    /**
      * @param {CIterator} iter
      * @recursive
      */
     function jumpToLetter(iter) {
         if (!iter.hasNext()) return;
 
+        /** @type {Letter} */
         const letter = iter.next();
+
         const timer = new Timer(
-            () => glide(new Vec2D(1, 1), letter.position, timer),
+            () => {
+                if (player.position.equals(letter.position)) return true;
+
+                const by = new Vec2D(1, 1);
+                const delta = letter.position.sub(player.position);
+                const normalized = delta.normalized();
+
+                if (delta.length() === 0 || !isFinite(normalized.x)) return true;
+
+                player.position = player.position.add(normalized.mult(by));
+                timer.reset();
+
+                return false;
+            },
             600 / 1000,
             true,
             () => jumpToLetter(iter)
