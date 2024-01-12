@@ -54,7 +54,7 @@ function keyPressed() {
             },
             60 / 1000,
             true,
-            () => jumpToLetter(iter)
+            () => setTimeout(() => jumpToLetter(iter), 1000)
         );
     }
 
