@@ -8,6 +8,7 @@ function setup() {
 
     noStroke();
     textAlign(CENTER, CENTER);
+    frameRate(60);
 }
 
 function draw() {
@@ -44,14 +45,14 @@ function keyPressed() {
                 const delta = letter.position.sub(player.position);
                 const normalized = delta.normalized();
 
-                if (delta.length() === 0 || !isFinite(normalized.x)) return true;
+                if (delta.length() < 1 || !isFinite(normalized.x)) return true;
 
                 player.position = player.position.add(normalized.mult(by));
                 timer.reset();
 
                 return false;
             },
-            600 / 1000,
+            60 / 1000,
             true,
             () => jumpToLetter(iter)
         );
