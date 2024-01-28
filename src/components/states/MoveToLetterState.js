@@ -1,5 +1,6 @@
 import {GameState} from "../GameState.js";
 import {ShowLetterState} from "./ShowLetterState.js";
+import {Vec2D} from "../../api/Vec2D.js";
 
 export class MoveToLetterState extends GameState {
     /** @param {Context} ctx */
