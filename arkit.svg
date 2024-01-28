@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="589px" preserveAspectRatio="none" style="width:1057px;height:589px;" version="1.1" viewBox="0 0 1057 589" width="1057px" zoomAndPan="magnify"><defs/><g><!--MD5=[907f49522c4d599ecd109b7539cb12fc]
+entity _Circle--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="55" x="167" y="9"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="35" x="177" y="30.1387">Circle</text><!--MD5=[0bebbe5ba4940d2ca66dc7c86d2dddc6]
+entity _CIterator--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="76" x="409" y="88"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="419" y="109.1387">CIterator</text><!--MD5=[a3982795eae3db01abefd3a827549e9a]
+entity _ClickState--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="83" x="841" y="79"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="851" y="100.1387">ClickState</text><!--MD5=[c594074942ecbac82ae276c9be26d123]
+entity _Color--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="53" x="168" y="416"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="33" x="178" y="437.1387">Color</text><!--MD5=[d1488b2740150b018a5e1f9a2623dd0f]
+entity _Context--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="69" x="309" y="94"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="319" y="115.1387">Context</text><!--MD5=[f1e9371633154d500b18dfcb957b5e37]
+entity _Entity--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="54" x="420" y="8"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="34" x="430" y="29.1387">Entity</text><ellipse cx="343.4914" cy="492.8774" fill="#F8F8F8" rx="31.9914" ry="12.8774" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="41" x="322.9914" y="496.3618">Events</text><!--MD5=[fca6bb75506a092c5611541409a3504a]
+entity _Font--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="47" x="171" y="545"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="27" x="181" y="566.1387">Font</text><!--MD5=[fc6c6f94a4c624e0b214a469b63d3732]
+entity _GameState--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="91" x="955" y="119"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="71" x="965" y="140.1387">GameState</text><!--MD5=[ec313debe778f69a03635b91294dfe10]
+entity _KeyPressedListener--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="143" x="123" y="140"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="123" x="133" y="161.1387">KeyPressedListener</text><!--MD5=[6c289501dc46a84d0efcb6c64b8ba658]
+entity _Letter--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="57" x="166" y="59"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="37" x="176" y="80.1387">Letter</text><!--MD5=[12cc26d695a16c6495df5161958c71d8]
+entity _Listener--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="69" x="551" y="237"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="561" y="258.1387">Listener</text><!--MD5=[d0e3b28c891e255f50507c4b6d223b2e]
+entity _Listeners--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="76" x="156.5" y="496"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="166.5" y="517.1387">Listeners</text><!--MD5=[a14b74c8fb78501c532de522be6cf531]
+entity _Manager--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="74" x="6" y="287"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="54" x="16" y="308.1387">Manager</text><!--MD5=[f239d6bdc89fac5dea41b6e36829a26e]
+entity _MousePressedListener--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="160" x="114.5" y="336"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="140" x="124.5" y="357.1387">MousePressedListener</text><!--MD5=[36bb408d5907b980e2ee3a02ac64790f]
+entity _MoveToLetterState--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="139" x="516" y="134"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="119" x="526" y="155.1387">MoveToLetterState</text><!--MD5=[017daced790664c70eab7fc2aa904439]
+entity _PreloadListener--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="117" x="136" y="238"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="97" x="146" y="259.1387">PreloadListener</text><!--MD5=[6336db2197422343e6137a166f0e3ac5]
+entity _SetupListener--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="105" x="142" y="287"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="85" x="152" y="308.1387">SetupListener</text><!--MD5=[4c20ca7fa708111b0af6ed503a87b60b]
+entity _ShowLetterState--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="124" x="686" y="114"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="104" x="696" y="135.1387">ShowLetterState</text><!--MD5=[604f67878486759c3f89b63c1868f7ff]
+entity _Vec2D--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="59" x="417.5" y="365"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="39" x="427.5" y="386.1387">Vec2D</text><!--MD5=[ba37fb442d82ccfb9829a7b597374654]
+entity _WindowResizedListener--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="167" x="111" y="189"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="147" x="121" y="210.1387">WindowResizedListener</text><!--MD5=[e5d5c09b2604f6bbaca8820f4c97376b]
+link _Circle to _Entity--><path d="M222.308,25.893 C268.949,25.707 364.79,25.324 414.514,25.126 " fill="none" id="_Circle-&gt;_Entity" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="419.761,25.105,410.7451,21.141,414.761,25.125,410.7771,29.141,419.761,25.105" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[518240de5f667ecaad7f5d3f40d2cb7d]
+link _ClickState to _GameState--><path d="M924.071,109.99 C932.45,112.879 941.364,115.953 950.02,118.938 " fill="none" id="_ClickState-&gt;_GameState" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="954.797,120.585,947.5932,113.869,950.0703,118.9547,944.9846,121.4318,954.797,120.585" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[f46ed7d575613e1961b11276971efe14]
+link _Context to _CIterator--><path d="M378.016,109.019 C386.145,108.538 394.944,108.018 403.429,107.516 " fill="none" id="_Context-&gt;_CIterator" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="408.663,107.207,399.4432,103.7436,403.6717,107.5013,399.914,111.7298,408.663,107.207" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[729b7b9b1e047eee4242fba9a65b96e0]
+link _Context to _ClickState--><path d="M373.027,93.898 C383.895,88.308 396.644,82.815 409,80 C441.934,72.496 451.229,79.319 485,80 C612.13,82.564 762.048,89.748 835.812,93.557 " fill="none" id="_Context-&gt;_ClickState" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="840.99,93.825,832.2089,89.3649,835.9967,93.5664,831.7952,97.3542,840.99,93.825" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[1ed113c6b1f7958a7c5a2fdba7f71213]
+link _Context to _Listener--><path d="M373.45,128.249 C418.258,154.947 504.155,206.128 551.375,234.263 " fill="none" id="_Context-&gt;_Listener" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="555.821,236.912,550.1387,228.8677,551.5262,234.3517,546.0422,235.7393,555.821,236.912" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[e0cac3cf587e8336ba10cbd723d4a32f]
+link _KeyPressedListener to _Listener--><path d="M266.13,173.5 C324.831,187.352 410.495,207.888 485,227 C505.127,232.163 527.46,238.195 545.86,243.247 " fill="none" id="_KeyPressedListener-&gt;_Listener" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="550.94,244.645,543.3226,238.402,546.1189,243.3194,541.2016,246.1157,550.94,244.645" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[1d18726bcbfde34f9b36338d6ca218dc]
+link _KeyPressedListener to _Manager--><path d="M122.685,165.326 C118.543,167.552 114.603,170.101 111,173 C76.077,201.1 56.7087,252.507 48.6015,282.073 " fill="none" id="_KeyPressedListener-&gt;_Manager" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="47.3068,286.976,53.4729,279.2962,48.5839,282.1419,45.7383,277.2528,47.3068,286.976" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[bcc2d5086728b8763f481ac38bf45260]
+link _Manager to _KeyPressedListener--><path d="M50.226,286.752 C59.1496,261.272 78.2246,214.372 111,188 C117.159,183.044 124.305,179.111 131.763,175.929 " fill="none" id="_Manager-&gt;_KeyPressedListener" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="136.442,174.041,126.5991,173.6999,131.8054,175.9122,129.593,181.1185,136.442,174.041" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[0c1c7815600caa92ab8f78a3c54e68d2]
+link _KeyPressedListener to _MoveToLetterState--><path d="M266.396,155.906 C335.489,154.841 440.113,153.227 510.309,152.144 " fill="none" id="_KeyPressedListener-&gt;_MoveToLetterState" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="515.724,152.061,506.6634,148.2003,510.7246,152.1381,506.7868,156.1994,515.724,152.061" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[fb68ecaee9502168ccf09db010de9a02]
+link _Letter to _Entity--><path d="M223.265,70.347 C270.433,60.744 365.874,41.313 415.094,31.292 " fill="none" id="_Letter-&gt;_Entity" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="419.998,30.294,410.381,28.1696,415.0985,31.2913,411.9767,36.0088,419.998,30.294" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[3452f81e61f1b38beca8fb3ab48393ed]
+link _Listeners to Events--><path d="M232.594,507.9532 C255.684,504.8117 285.186,500.7978 307.809,497.7198 " fill="none" id="_Listeners-&gt;Events" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="312.819,497.0383,303.3618,494.2886,307.8647,497.7126,304.4406,502.2155,312.819,497.0383" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[3239b8f957194ce89b0ab8bf0ceff168]
+link _Manager to _Circle--><path d="M43.2372,286.853 C42.2051,241.726 45.8361,118.509 111,51 C124.187,37.338 144.567,31.077 161.771,28.237 " fill="none" id="_Manager-&gt;_Circle" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="166.997,27.461,157.5071,24.8261,162.0512,28.1953,158.682,32.7394,166.997,27.461" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[dc237a2bedd0c08d137622bdf99207d5]
+link _Manager to _Color--><path d="M51.372,321.352 C61.6347,343.534 82.2579,381.727 111,404 C126.008,415.63 146.042,422.818 162.609,427.128 " fill="none" id="_Manager-&gt;_Color" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="167.63,428.376,159.86,422.3239,162.7775,427.1704,157.9311,430.0879,167.63,428.376" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[8efdcab73a9859ea34393205f728b5ba]
+link _Manager to _Context--><path d="M44.9965,286.851 C48.0687,251.347 60.5477,169.95 111,132 C140.428,109.865 245.541,108.617 303.479,109.725 " fill="none" id="_Manager-&gt;_Context" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="308.593,109.831,299.6784,105.6441,303.5941,109.7267,299.5115,113.6424,308.593,109.831" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[a21ed3693b15b6fe5e9f31cd48887ea8]
+link _Manager to Events--><path d="M46.1192,321.034 C51.0934,353.234 66.6561,422.857 111,457 C126.281,468.766 245.994,482.8585 307.005,489.3715 " fill="none" id="_Manager-&gt;Events" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="312.008,489.9026,303.4813,484.9736,307.036,489.374,302.6356,492.9288,312.008,489.9026" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[fdad6e292cacb42b21e3dcf12d60d263]
+link _Manager to _Font--><path d="M43.6404,321.165 C43.7121,364.041 50.0237,476.765 111,538 C125.308,552.3686 147.683,558.2448 165.523,560.5961 " fill="none" id="_Manager-&gt;_Font" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="170.9,561.2182,162.4204,556.2085,165.9333,560.6425,161.4993,564.1553,170.9,561.2182" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[b3877fe286366aab929307f69cce2872]
+link _Manager to _Letter--><path d="M44.8854,286.763 C47.7623,248.703 59.917,156.765 111,105 C124.143,91.681 143.754,84.465 160.558,80.563 " fill="none" id="_Manager-&gt;_Letter" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="165.672,79.455,156.0292,77.4509,160.7853,80.5135,157.7228,85.2696,165.672,79.455" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[c56a5a3d10d8ee60e090b666982442fb]
+link _Manager to _Listeners--><path d="M45.5987,321.211 C49.7922,356.61 64.2466,438.095 111,484 C121.998,494.7986 137.248,501.5932 151.648,505.8612 " fill="none" id="_Manager-&gt;_Listeners" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="156.491,507.2139,148.8979,500.9414,151.6751,505.8696,146.7469,508.6468,156.491,507.2139" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[ad414e1c7e3ee262b6a980b9ab0660fa]
+link _Manager to _MousePressedListener--><path d="M72.5831,321.067 C83.2225,325.398 95.5264,329.814 109.598,334.521 " fill="none" id="_Manager-&gt;_MousePressedListener" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="114.437,336.129,107.1566,329.4961,109.6919,334.553,104.635,337.0883,114.437,336.129" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[5b132792ab25f322df4d4e0b733df807]
+link _MousePressedListener to _Manager--><path d="M160.064,335.967 C145.014,330.798 127.058,325.305 111,320 C102.6447,317.239 93.7528,314.157 85.2695,311.319 " fill="none" id="_MousePressedListener-&gt;_Manager" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="80.0488,309.588,87.3324,316.2175,84.7947,311.1618,89.8504,308.6241,80.0488,309.588" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[7fcf7a3ba2fb1b7f63a71c0a45be1416]
+link _Manager to _PreloadListener--><path d="M80.3377,289.883 C90.2316,286.192 100.9831,282.321 111,279 C117.318,276.905 123.941,274.812 130.569,272.782 " fill="none" id="_Manager-&gt;_PreloadListener" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="135.635,271.244,125.861,270.0317,130.8507,272.6969,128.1856,277.6865,135.635,271.244" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[f1835e76ea11546667438d488cb23cd4]
+link _Manager to _SetupListener--><path d="M80.1898,304 C97.0935,304 117.62,304 136.534,304 " fill="none" id="_Manager-&gt;_SetupListener" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="141.822,304,132.822,300,136.822,304,132.822,308,141.822,304" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[572798b2830b40bb55f4d662b6d507fe]
+link _Manager to _Vec2D--><path d="M53.7661,321.035 C65.0012,338.743 85.2582,365.456 111,377 C212.696,422.607 349.834,402.742 412.385,389.865 " fill="none" id="_Manager-&gt;_Vec2D" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="417.481,388.797,407.8519,386.7281,412.5873,389.8226,409.4928,394.558,417.481,388.797" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[483a84feefb6b5447fa2b2f5c7dfb491]
+link _Manager to _WindowResizedListener--><path d="M55.2819,286.79 C67.1974,269.936 87.4924,244.707 111,230 C113.656,228.339 116.431,226.788 119.288,225.342 " fill="none" id="_Manager-&gt;_WindowResizedListener" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="123.84,223.154,113.9955,223.4478,119.3335,225.3201,117.4612,230.6581,123.84,223.154" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[e2066510b8c2b36027b99f02e23f63d8]
+link _MousePressedListener to _Listener--><path d="M262.371,335.981 C344.093,315.183 479.632,280.689 545.783,263.853 " fill="none" id="_MousePressedListener-&gt;_Listener" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="550.81,262.574,541.1016,260.9166,545.9644,263.8068,543.0741,268.6696,550.81,262.574" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[92786e007af0592992124a14ea103c23]
+link _MousePressedListener to _Vec2D--><path d="M274.76,362.176 C321.073,367.537 377.129,374.027 412.187,378.086 " fill="none" id="_MousePressedListener-&gt;_Vec2D" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="417.203,378.666,408.7234,373.6564,412.2363,378.0903,407.8023,381.6032,417.203,378.666" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[76997a9ee88ee5323d14510bfeb28ce6]
+link _MoveToLetterState to _GameState--><path d="M655.001,154.116 C665.385,154.483 675.975,154.799 686,155 C741.1,156.107 754.958,157.752 810,155 C857.564,152.621 911.593,146.905 949.755,142.359 " fill="none" id="_MoveToLetterState-&gt;_GameState" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="954.798,141.755,945.3855,138.8558,949.8336,142.3507,946.3387,146.7988,954.798,141.755" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[4fa79fc863180067a4b301d072361e9a]
+link _MoveToLetterState to _ShowLetterState--><path d="M655.032,147.66 C663.499,146.678 672.144,145.594 680.578,144.457 " fill="none" id="_MoveToLetterState-&gt;_ShowLetterState" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="685.8,143.742,676.3403,141.0007,680.8463,144.4207,677.4262,148.9266,685.8,143.742" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[8a11d18f5f1903e9109a4107d5e211b8]
+link _ShowLetterState to _MoveToLetterState--><path d="M685.8,132.779 C677.469,133.681 668.847,134.71 660.323,135.818 " fill="none" id="_ShowLetterState-&gt;_MoveToLetterState" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="655.032,136.517,664.478,139.3049,659.989,135.8627,663.4312,131.3737,655.032,136.517" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[0207911ebee6402278d2115d7e963821]
+link _PreloadListener to _Listener--><path d="M253.317,254.851 C333.661,254.645 476.922,254.277 545.638,254.1 " fill="none" id="_PreloadListener-&gt;_Listener" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="550.854,254.086,541.8437,250.1092,545.854,254.0989,541.8643,258.1091,550.854,254.086" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[c44407330de624fe0b4403119d5b4a4c]
+link _SetupListener to _Listener--><path d="M247.156,297.36 C326.114,287.212 475.068,268.066 545.595,259.001 " fill="none" id="_SetupListener-&gt;_Listener" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="550.945,258.313,541.5078,255.4953,545.986,258.9516,542.5296,263.4298,550.945,258.313" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[22ef6f9ec9da7b39ba098b7cf44a7436]
+link _ShowLetterState to _ClickState--><path d="M810.208,114.832 C818.856,112.548 827.618,110.233 835.902,108.045 " fill="none" id="_ShowLetterState-&gt;_ClickState" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="840.993,106.7,831.2698,105.1315,836.1589,107.9771,833.3132,112.8661,840.993,106.7" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[290d7a35ce24aaf083ca4383273c974d]
+link _ShowLetterState to _GameState--><path d="M810.279,132.223 C853.113,133.078 909.591,134.205 949.663,135.005 " fill="none" id="_ShowLetterState-&gt;_GameState" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="954.958,135.111,946.0398,130.9318,949.959,135.011,945.8798,138.9302,954.958,135.111" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[3919f2af3e88f9c094358107eb63c8bf]
+link _WindowResizedListener to _Listener--><path d="M278.473,216.238 C360.946,226.415 483.825,241.577 545.794,249.224 " fill="none" id="_WindowResizedListener-&gt;_Listener" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="550.873,249.851,542.4296,244.7805,545.9105,249.2396,541.4514,252.7205,550.873,249.851" style="stroke: #000000; stroke-width: 0.5;"/><script type="text/plantuml"><![CDATA[MD5=[96a6e41cc6077b68366c1857480b8b72]
+@startuml
+
+scale max 1920 width
+left to right direction
+
+skinparam nodesep 15
+skinparam ranksep 31
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+skinparam defaultFontSize 12
+skinparam roundCorner 6
+skinparam dpi 150
+skinparam arrowColor black
+skinparam arrowThickness 0.5
+skinparam packageTitleAlignment left
+
+skinparam usecase {
+  borderThickness 0.5
+}
+
+skinparam rectangle {
+  borderThickness 0.5
+}
+
+skinparam component {
+  borderThickness 1
+}
+
+
+rectangle "Circle" as _Circle
+rectangle "CIterator" as _CIterator
+rectangle "ClickState" as _ClickState
+rectangle "Color" as _Color
+rectangle "Context" as _Context
+rectangle "Entity" as _Entity
+(Events)
+rectangle "Font" as _Font
+rectangle "GameState" as _GameState
+rectangle "KeyPressedListener" as _KeyPressedListener
+rectangle "Letter" as _Letter
+rectangle "Listener" as _Listener
+rectangle "Listeners" as _Listeners
+rectangle "Manager" as _Manager
+rectangle "MousePressedListener" as _MousePressedListener
+rectangle "MoveToLetterState" as _MoveToLetterState
+rectangle "PreloadListener" as _PreloadListener
+rectangle "SetupListener" as _SetupListener
+rectangle "ShowLetterState" as _ShowLetterState
+rectangle "Vec2D" as _Vec2D
+rectangle "WindowResizedListener" as _WindowResizedListener
+
+
+_Circle ---> _Entity
+_ClickState --> _GameState
+_Context --> _CIterator
+_Context ---> _ClickState
+_Context ---> _Listener
+_KeyPressedListener ----> _Listener
+_KeyPressedListener --> _Manager
+_KeyPressedListener ----> _MoveToLetterState
+_Letter ---> _Entity
+_Listeners --> (Events)
+_Manager --> _Circle
+_Manager --> _Color
+_Manager --> _Context
+_Manager --> (Events)
+_Manager --> _Font
+_Manager --> _KeyPressedListener
+_Manager --> _Letter
+_Manager --> _Listeners
+_Manager --> _MousePressedListener
+_Manager --> _PreloadListener
+_Manager --> _SetupListener
+_Manager --> _Vec2D
+_Manager --> _WindowResizedListener
+_MousePressedListener ----> _Listener
+_MousePressedListener --> _Manager
+_MousePressedListener ---> _Vec2D
+_MoveToLetterState --> _GameState
+_MoveToLetterState --> _ShowLetterState
+_PreloadListener ----> _Listener
+_SetupListener ----> _Listener
+_ShowLetterState --> _ClickState
+_ShowLetterState --> _GameState
+_ShowLetterState --> _MoveToLetterState
+_WindowResizedListener ----> _Listener
+
+@enduml
+
+
+' View and edit on https://arkit.pro
+]]></script></g></svg>
