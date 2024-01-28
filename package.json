@@ -1,0 +1,14 @@
+{
+  "name": "p5js",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/p5": "^1.7.6"
+  }
+}
