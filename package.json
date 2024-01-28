@@ -10,5 +10,10 @@
   },
   "dependencies": {
     "@types/p5": "^1.7.6"
+  },
+  "scripts": {
+    "build": "bun build ./src/Manager.js --sourcemap=external --outdir ./dist",
+    "dev": "bun build ./src/Manager.js --sourcemap=external --outdir ./dist --watch",
+    "uml": "bunx arkit src"
   }
 }

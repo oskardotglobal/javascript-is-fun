@@ -1,5 +1,7 @@
 # p5js
 
+![](arkit.svg)
+
 ## Development
 
 Run:

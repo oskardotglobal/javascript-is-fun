@@ -1,34 +1,4 @@
-/**
- * @param {string[]} values
- * @returns {any}
- * @constructor
- */
-function Enum(values) {
-    const enumObject = {};
-
-    for (let i = 0; i < values.length; i++) {
-        enumObject[values[i]] = i;
-    }
-
-    return Object.freeze(enumObject);
-}
-
-class Color {
-    /**
-     * @param {number} red
-     * @param {number} green
-     * @param {number} blue
-     * @param {number} alpha
-     */
-    constructor(red, green, blue, alpha) {
-        this.red = red;
-        this.green = green;
-        this.blue = blue;
-        this.alpha = alpha;
-    }
-}
-
-class Vec2D {
+export class Vec2D {
     /**
      * @param {number} x
      * @param {number} y
@@ -89,16 +59,5 @@ class Vec2D {
      */
     length() {
         return Math.sqrt(this.x * this.x + this.y * this.y);
-    }
-}
-
-class Font {
-    /**
-     * @param {string} name
-     * @param {number} size
-     */
-    constructor(name, size) {
-        this.name = name;
-        this.size = size;
     }
 }
